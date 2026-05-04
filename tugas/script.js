@@ -7,13 +7,13 @@ tombol.addEventListener('click', () => {
 } );
 
 const btnHobi = document.getElementById('btnHobi');
-const hobiBox = document.getElementById('boxhobi');
+const boxhobi = document.getElementById('boxhobi');
 btnHobi.addEventListener('click', () => {
-    if (hobiBox.style.display === 'none') {
-        hobiBox.style.display = 'block';
+    if (boxhobi.style.display === 'none') {
+        boxhobi.style.display = 'block';
         btnHobi.textContent = 'Sembunyikan Hobi';
     } else {
-        hobiBox.style.display = 'none';
+        boxhobi.style.display = 'none';
         btnHobi.textContent = 'Lihat Hobi';
     }
 });
